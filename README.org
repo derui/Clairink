@@ -29,5 +29,5 @@ This is a split keyboard having these features:
 * LICENSE
 MIT
 
-** LISENCE note
+** LICENSE note
 This keyboard uses Seeed Studio's XIAO nRF52480 kicad symbol and footprint. There are licensed under MIT that they written in [[https://wiki.seeedstudio.com/ja/License/][here]].
