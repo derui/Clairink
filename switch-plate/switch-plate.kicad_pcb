@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 2)
 		(legacy_teardrops no)
@@ -75,7 +75,20 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -84,15 +97,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -116,7 +126,6 @@
 			(outputdirectory "../jlcpcb_20251103/assemble/")
 		)
 	)
-	(net 0 "")
 	(footprint "kicad-lib:SW_Hole_1u_16.6"
 		(layer "F.Cu")
 		(uuid "0b94d235-cea4-40d0-91d9-256fa1eefa5b")
@@ -175,6 +184,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -327,6 +337,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -479,6 +490,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -631,6 +643,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -783,6 +796,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -935,6 +949,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -1087,6 +1102,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -1239,6 +1255,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 7)
 			(end -7 -7)
@@ -1391,6 +1408,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -1543,6 +1561,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -1695,6 +1714,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -1847,6 +1867,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -1999,6 +2020,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -2151,6 +2173,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -2303,6 +2326,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -2455,6 +2479,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -2607,6 +2632,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -2759,6 +2785,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -2911,6 +2938,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -3063,6 +3091,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -3215,6 +3244,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -3367,6 +3397,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -3519,6 +3550,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -3671,6 +3703,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -3823,6 +3856,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -3975,6 +4009,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -4127,6 +4162,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -4279,6 +4315,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -4431,6 +4468,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -4583,6 +4621,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -4735,6 +4774,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -4887,6 +4927,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -5039,6 +5080,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -5191,6 +5233,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -5343,6 +5386,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -5495,6 +5539,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -5647,6 +5692,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -5799,6 +5845,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -5951,6 +5998,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -6103,6 +6151,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7 -7)
 			(end 7 -7)
@@ -6255,6 +6304,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)
@@ -6407,6 +6457,7 @@
 		(sheetname "/")
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7 7)
 			(end -7 7)

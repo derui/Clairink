@@ -23,8 +23,8 @@ This is a split keyboard having these features:
 | Choc V2 Socket                         |  42 |
 | Rotally Encoder (ALPS EC12 compatible) |   2 |
 | SS-12D01G3                             |   2 |
-| chip condenser (0.01uF)                |   4 |
-| chip register (10KΩ)                   |   4 |
+| chip condenser (0.1uF)                 |   4 |
+| chip register (1KΩ)                    |   4 |
 
 * LICENSE
 MIT
