@@ -1,0 +1,6304 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 0.4)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 0.31)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "../jlcpcb_20260405/assemble/")
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "0b94d235-cea4-40d0-91d9-256fa1eefa5b")
+		(at 238.8 94.2)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW24"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "3b3f951e-68b2-4b84-a02b-1bea791afb8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d94fc37-e705-4ff0-846d-c254a6dfac7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb70ce58-77d6-43d3-9c23-0cae3b296e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1ff9724-5e5c-4844-b7e0-f72a32ba686e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/e5dabbca-0685-4cd5-bb84-a8f0c70def64")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e29542ed-cb7d-4bb9-8b0e-9de01966229e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "735a0ee5-75d1-4218-8a37-d6a8ca973af6")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b459517b-842e-4126-a247-7de4d0f593bc")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f725b434-ba58-4409-849d-c8c3fb65ef8e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2dad15a2-c9ea-4851-8583-a8ffcbc0e3c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc864c97-89ea-4152-8ab3-d2dca13c67e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "226a2a4f-9718-45b7-b002-4efe5b8f8d0c")
+		(at 255.4 98.35)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW30"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "1054a4ce-a71f-4c2a-bb6e-33624da9bd44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41c91b6e-6345-441e-b0fc-44100b2da08d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a3fb4f9-471d-4f8e-bbb7-43bdbedf4d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6c93d88-f93c-4061-813d-e591c6425a90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/1fc7f646-69e3-47ff-959b-4247e243140f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "30b38869-1960-4f1c-8f66-5f4a4da1cc32")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8c398be7-9909-4c74-8068-1a70ab78a5a8")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "71c538f8-2fbf-4229-9e87-f7d9f6a8a975")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "68426b9b-dc79-4cf2-9969-c8bc3cfa1c7c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2da28dba-4e16-46cd-a86b-4101dc22d296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "57601474-3daa-40cc-b64b-191b8c936a07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "24560b90-5616-4ffc-8283-8a0da50eb42b")
+		(at 64.2 94.2 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW15"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "0e13823f-cdbe-4849-863e-11e20763dcee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e33f94ba-40a9-49cd-9c59-e22d7bb1fce7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3456693-49cb-4fc3-a566-64cb2519b031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4feb8b0e-cbe6-45f3-abbf-bd3383b6cbbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/e174ddfe-c295-453a-8bea-2160772bde4a")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8f1dd2e8-0398-4440-b609-a341b128759b")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "276c0c87-e5c4-4f5a-8ff1-41dc25fea282")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a85afd21-3b8f-4bab-a995-e131360184be")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9603f45a-aa30-4946-9fb4-1dadf1dc0b64")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "44f3b865-5a96-4f31-983b-e41a38503092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "66fa89d1-4689-43d0-9a32-51273029e76c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "2d9c205c-f95a-4496-a563-fd4dbd2d49bd")
+		(at 47.6 98.35 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW9"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "13258472-9c9b-48d4-9d3f-9a5a2dc51ee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7308f236-519f-4abd-a452-38649e634859")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f238d200-d864-4945-b8c7-ba4609194e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea763ef-eb8b-436c-b6e4-95262e40d6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f0bebf04-407a-4cea-b91c-2df5007e8350")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ac691e58-881d-4f19-af48-24b79228abbf")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f4635a5f-d2bd-46cd-95ee-37850fa53996")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "09229dc2-dd69-4e45-97d8-99f8aeb16341")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "7f698801-8cbe-4087-91c8-7878a6e658ab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "6252f035-c853-4e51-9eed-f55bc4b28b94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "bbf043c7-e45e-4d37-809d-1b1bbc8bcb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "355fc112-2c03-43e4-ad82-607fb1567cc3")
+		(at 47.6 65.15 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW7"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "cd13af5c-e065-4674-8bd5-625798d8ce72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2bb5a21-e03c-4f2a-b6ae-9b9b8a10aff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a2559d4-4b96-4597-8cc5-a99526d67718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43cb5a9b-7381-4023-9f27-d9706a4ff4fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/2a61cb1e-2d88-4312-afc5-e10ee25ff868")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "740035df-80a4-473c-8972-0f7f4a5270cd")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0ffd8a15-b8c1-400a-8075-dccc466afbce")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9df4f7bd-3ec5-4985-a22a-62aa2b76362c")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3c0c354a-359c-4d04-ad00-b81168757a40")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "34c8a6d6-e9bd-460b-a46a-83ba546fe60c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "ed315982-e64c-4666-9eec-4823969014f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "377e5827-1b8d-445c-870e-77a48224d99d")
+		(at 172.4 117.44 30)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW42"
+			(at 0 -9 30)
+			(layer "F.SilkS")
+			(uuid "1007cf99-8dee-4027-982f-031e600bfd6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 30)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbad5122-d4f8-45c9-872d-a6c4aedd65ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 30)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec87e59-4589-4cce-8da3-3612d5a89474")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 30)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b41f0c29-0c5a-42b6-885b-2a22ce203fd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/fe3398b0-8045-48b0-943d-790c59077835")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "650d0662-272f-4e5a-9827-fe28638cb8e0")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "545db9d6-052a-47ea-8260-a0c770227c76")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b2cae9cf-4d98-4695-aaa7-60f19d82b9ea")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.800001)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "147f601f-eb7e-432e-9881-00c8c7d6fe7b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 30)
+			(layer "F.Fab")
+			(uuid "7fe5ea1c-023c-4a88-883e-ba3b4d7f6437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 30)
+			(layer "F.Fab")
+			(uuid "a2d52265-c23d-4af3-88e9-7c60d00646a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "3fb0a2c5-9970-4442-9bad-de1e65345ff8")
+		(at 47.6 81.75 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW8"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "40df76a5-6854-446a-84c9-b3132b14b2e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "810ae115-2428-43d2-8b12-0c3f53f9fe63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e012fc2c-93c7-4dd9-ab76-b53d48ead637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c5e876-7c99-4643-8e9b-b095fd90e124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/3b76069e-adb3-488d-a95f-26fc525ef601")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5796f32f-2ed9-4c37-b4af-d6ebe0da746c")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "43aeb79c-193d-4ba8-a7a0-b2ee4e8b8715")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "fa1e5f5a-d58e-457b-ba70-fb938838caf9")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "927ce51f-7b4f-49dc-b9d9-08cc92a079a4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "72189b7d-0c5a-4085-868a-559b13b919b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "cf3a0ccf-26a4-4c68-9a42-6fe13f3c5816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "4409ff75-9f20-44f0-a1d9-56e82df2df62")
+		(at 130.6 117.44 150)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW39"
+			(at 0 -9 150)
+			(layer "F.SilkS")
+			(uuid "35d099b8-6fe4-406d-b397-342ff5a55549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 150)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d9aab35-cbc0-48d3-8bcb-111ad61e8792")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 150)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "645e9873-9cee-42ff-8b7b-f4129d06651e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 150)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "767c132b-4149-45d5-91bd-7128b257600f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/48414e9f-d7b1-448a-800e-c11100bd5a0f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5fed0176-2fbb-47d6-984e-8cc4aba6e44d")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c94ae149-325b-4967-aa94-8965ab5692b4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9601b2a4-b7b5-49ef-9043-42123930be28")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f25eb15b-8a3e-489e-a0d5-66ebe4ab1524")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 150)
+			(layer "F.Fab")
+			(uuid "1d95b76c-dab9-487e-b17b-a7a6dbdb085e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 150)
+			(layer "F.Fab")
+			(uuid "4e9125f2-c622-4e92-b7d2-32448794be06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "4b18314b-6653-4f6a-9000-07f0677037f2")
+		(at 205.6 94.2)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW12"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "14ea3307-1b37-410e-a36c-bc5a1d76ef39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df87e5d0-f69c-4bf7-ae72-bf56a2a9749c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f522a24-b4a3-42f5-9db8-fbda5b20008e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd0c47c3-9505-4d1c-9866-5970351d9ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/6c0bb52b-97a5-44c0-9b9f-e444ed95d6d1")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "38f368d6-0b78-49ef-89dd-dfc33fcf37ef")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ecc82b5d-b931-484a-872f-a01828b28553")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d2403507-9c1a-4c5b-b625-a834486cf816")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9af563b8-554d-4d86-95d0-237651695d9d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a65efd75-734f-4e34-b417-8ec89fcb3a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "be976dd0-ccd9-43f7-8d3c-4343b1eb15ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "52fbc8b2-cc5d-4e58-9586-2ae588e38357")
+		(at 80.8 58.51 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW19"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "8bba6f3b-ce18-466c-ac15-bccbb1baf1b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dcb64ea-1602-4bb0-9c73-1c30609c7730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9310ae4-6244-44f6-b879-cf0277a398f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcaadc70-65ed-4d23-9737-184ce690f8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/ce19058f-18f0-4c89-8018-5cdc39b68206")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "548786dc-999e-4a69-a919-7d8420416d65")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "dc58a939-36da-449e-b55b-59d1955dcb95")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6530a4f0-ecdf-41b5-b18e-18582bc909dc")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a66e57f4-2be0-4eb5-a66d-ae78fb147f5c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "96dde02f-31c4-4fdb-820f-5ddabebccd21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c86ba515-a53d-427a-af81-61e6eb133569")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "53ddef14-9d89-443c-a055-4a802d6e4171")
+		(at 205.6 77.6)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW11"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "fd94f8d2-3fd9-4a53-a140-8bb817ce6364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63c1510c-1773-4ee7-b617-5e78673bfc78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f7d004-2c7b-404e-b8b5-d6d36c2af16b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8127902e-c955-43c0-b8eb-ea53ebacb89d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f39e7b3f-0a97-4e24-8df0-e219cbd1daea")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f49adcd8-a309-4056-b4f1-c4f094664961")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5e9fb62f-3181-4178-b278-72fe1304bff4")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "866e7e6b-4acf-4077-9d56-f81cd7814b6c")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d29e1c21-cd5e-49a7-bfe1-3cd9e4a38905")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4d7ba0a9-4a1b-4449-a8e3-514bc05f218e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "93d9dc5c-984f-4136-bb6b-d1ae03a80715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "5ee26753-e552-4f86-8b89-7bb4c69c2c0e")
+		(at 205.6 61)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW10"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "a5853364-0503-4395-a904-de010de9e82d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72e5e4d3-2af9-4155-ad7e-67396f1b0e31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "969d74ac-c8c7-45da-98d1-e4b7f9bb0f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53f7a572-c432-4b10-a17a-287ae2aabc80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/8a051969-d59b-4435-a0bd-7ab8acf63adc")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5debde83-a966-4276-a85e-398af08bfb62")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3481d2c6-d1b1-4c6e-ad6f-268c246207a1")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "596978be-971d-4ff1-908d-c134bfbf8ff4")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f085c496-69f3-40bc-b83a-debc364ea4af")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2e4d3b6d-158b-42c9-ad33-ba17e489c7cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "449561d7-cfaa-4800-a59a-87e44d057f0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "65efc280-4b8b-4097-b38c-19ea3684d5cd")
+		(at 31 83.41)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW2"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "f2cf3339-0392-4fc6-a226-c26b39d0b678")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8d2b0e7-86c2-4fcb-8039-e33a5f4f0c23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97630289-9ce1-4c26-82d2-5f813a66f3df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52e45464-2589-4fed-829e-7ba5831eaeea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/a0d6682e-347e-4e7a-a3ed-00ee2d3f82f7")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ba5650f3-33cd-44a7-be33-1b37c9abf527")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e90c231d-7231-4ac2-9e59-99c7be44341f")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8daf41d7-943b-4d16-acfe-26f19846ec6a")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "62cf9c0f-c380-4a54-b295-c0b8740bb330")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6b4fcf3c-888a-4f44-97f2-6f38c68e26dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d4fea0ec-a49a-40c0-b765-58dba47eb45c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "6d6cb410-4ad7-4ae9-abc2-dbd887ba38d8")
+		(at 197.3 113.29 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW41"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "45ec3abf-c916-4565-a097-62e5d306ab9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c1b241f-0c65-4ccf-b192-e191750db6ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c067c88-f1e1-4992-80b8-54e1e28901f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e145264f-97ab-4ffa-ad7f-10f4b824334b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/06f4e4d3-50fd-414b-90a3-eed65c149746")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5f70e1e7-d3f5-4ee8-8a82-8ad3707c1f7c")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c2071573-9466-4277-b286-7d74681a6a96")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f8f0c6bb-c2f7-4c3a-b9d1-c8096ed02d1b")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c793ed32-cb6e-49b7-90b8-16b2483b7abb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "3971c098-ac98-4e14-b7f9-2c363ea08429")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "f598913a-f11a-424a-9e10-372c18a2e04d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "74497370-4dd4-4da6-a1e7-8e909e965722")
+		(at 105.7 113.29 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW38"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "6fd19f34-dc89-414d-a874-88aabaa3103c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea3dcb3d-e634-46e9-a911-9f3d129c53e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c902dfff-4db1-452d-884d-137d2142f230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbe75ac0-a679-4961-a9eb-599f6ed3e5ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/6d8fa4aa-af10-4996-bf4e-187dc150c4e6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "124e5ec8-0282-491b-8128-264c4325bd2f")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "199a87be-dbce-4253-b7c5-9d0026af8c92")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "139b32ba-7c04-49c1-a839-8abcda299790")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "fd177a7c-6373-437f-9c97-d426e794b2d9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "197df599-16d0-4888-92fc-ffeedf096139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "a09b9f2f-27f0-42ae-bd98-eec70458d001")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "7c1c3492-1b0b-438d-8202-3225208afd32")
+		(at 114 63.49 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW31"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "72d96655-a721-4a0e-af9d-26e65c00084d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b4dc03-fd45-41d3-a432-d114d0c17b79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8a6cb21-6075-4e5d-a237-298f608a2d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "add8602d-746a-4354-b69d-31e896300cae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/3c3cf800-ad94-4723-a743-397d9f0758b6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "03e7f0c4-9bbc-467b-8ee9-f3f27ba9018d")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d6eab7ff-18be-4c32-8ae8-88da6e8f5c3d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e052ccda-9214-4fc2-a163-438a00fd080a")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a79de676-2e5f-4ab2-ac72-cf317611afec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "97acd41d-815b-4c1c-94ef-e7e523bc94f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "ffdb590e-ae9d-424f-915d-e9fac495bd2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "950bf571-cab2-41d5-88e9-a49ca8e779d3")
+		(at 272 66.81 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW34"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "06bef95b-d871-46ab-876b-3809bdbeed47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b10e08ec-3445-4c7c-91d2-a12d7f104a52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cf28602-b31b-46ef-91b7-4cfceac36b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40c5297c-da01-4367-a784-f7b8008e7161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/79086a04-4e82-44e4-9199-e045db9ce7e1")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5cad5083-b84f-4db8-8a2e-bba6b7a765e5")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6a607b81-d0c2-43f2-975a-044588f0cde7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "fe2eeb38-e676-4ef8-8e4d-f9f48df495f1")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "172d7d09-7b5f-4b99-bd6e-69df7f69db81")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "0cb5d275-93f0-4f7b-ad21-e77fcf94e663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "4a029dff-c54e-495e-916e-7b1c207a58dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "9c8d55a8-0e40-4acd-ab55-c3351f12a219")
+		(at 97.4 77.6 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW26"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "a11b5012-76ab-4ef7-b83f-0051ecdce95d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90cddb60-46b3-45da-abd7-d0d3de447149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "133c4c86-642c-406e-9fdf-8fc148cb3fe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6ba6f13-d004-4c93-917c-b91d6cf10636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/fbd26144-a727-4bca-bd4d-f31e410b1cf4")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "98a5ab50-eaa2-4a8d-86fc-f6766c66c687")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8352cb90-7ac8-4a95-b4ef-d96cccc0d367")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6a2f82a0-2ccc-407e-8a38-65f64a30d608")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "52808b61-14c0-4dbe-a64a-4c36d5d2df03")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "89d3597a-c76b-4b94-9105-878c95f3eef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c522cc6d-b659-41b2-ab38-64c5718e6290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "9dcd7ad7-1822-4ec5-bafa-26b94942d927")
+		(at 222.2 91.71)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW18"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "df43eee7-8d85-4337-8855-477722b60c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a21dbb6-ae1d-4334-b676-909d1dd02984")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1755a637-c5a2-4b1a-9549-69c345712ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fba5ae76-f784-4b6a-91d3-320e919bf131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/88a63629-a7f7-47f6-90c1-3b5acc1d0d11")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d2887f38-289b-4162-ac07-3643f49aa963")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0e1a1deb-6a1c-4a5b-adea-9a30ce2119cf")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "915f8332-e97b-42e2-ab1e-1a9e180438cb")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1c17628e-2c16-4674-93cf-adc5c36543d5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1fbef433-f363-4609-851b-cffafecb6a08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3695c4ef-7757-4fea-b61c-62d76859b744")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "9ebb403f-462a-40a7-b9c4-1e47bc92d92e")
+		(at 89.1 110.8 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW37"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "73a15847-1057-4474-9c84-08562cbfea4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45cf5d84-b2ae-404b-a552-9583bd421530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fbc9c05-0c71-44f3-859f-91514bde6b04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9f54cc3-2ded-4af2-8536-c4a5c6108941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/c12cf13a-0201-4105-bee7-3a946ed07b43")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "822f20e2-ac59-48af-bf6c-5b0d7418632c")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "67bda987-5ca7-43a6-aa37-d1cd21b1f3b2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9a547d02-a8f2-4013-a2d0-2a39edd3b4e9")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "43548b9a-cba1-4f59-8577-95caff445c79")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c8ab437e-8e10-4f9b-a0a4-da9f286ffd45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "dcf562e5-413b-4e9c-ac60-66038d3de0d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "9f81c02e-a7be-48ca-a7b1-26b050dad7d3")
+		(at 272 83.41 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW35"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "523ce670-887c-4321-a0ce-75b75341f7d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cb89944-0d23-43c9-8602-db74b46fb2d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74da82cf-5288-49dc-986f-48cd264fa8c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e64224d-643b-4d0d-9632-6913db199c9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/1de6d69b-897f-4066-aab3-8efc9ef088c6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "de78297b-e8b7-4657-99c5-11edf4962354")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "aceb7067-3e95-4f23-b108-24deb1c9e0bd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "cb5af5f8-45e4-4960-ae33-1a996d0d8380")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9ca4f620-1735-4123-8f5f-badde36809c2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "83b3b575-bc2e-4a3f-b8e8-de59a7b86c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "a1304c00-d77d-4290-85ce-fb319a561ba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "a0826220-3747-4374-a50a-d1e7107493b5")
+		(at 255.4 81.75)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW29"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "0252b7d0-0443-4fc4-8e1d-30272aaec653")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91f87f21-f359-4452-9dbe-bca71ec98a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93e43cfc-d5b4-43a9-a304-42f2e8b98014")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2758c1ac-b6bb-4101-b5ac-53d424d09773")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/86d9cf8f-35d6-400e-9089-8368c203c2e6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3e3b3de6-053e-410c-8349-227b9aaec249")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "cf8cc378-bc68-4860-9949-3935f87a696a")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "79724294-ead8-4712-ade3-281915d14421")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f3a8f697-5c37-4ef0-9ff7-fc39b2511d01")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6286b75e-414b-4e06-b3a4-743cea1a6df0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "827beeb4-5bae-400e-98a7-7ddbc5f93365")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "a2c38c7f-fed9-4b46-819b-cf7012b7cd22")
+		(at 189 80.09)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW5"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "3f5843af-6129-4eec-b6e8-87b35d72f7f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cb07288-2a44-44fe-9265-0ef2694841b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9fad13d-9654-49ba-ba15-1d14c0869537")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ac3f552-2250-4ea9-b752-d22f5f801ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/4bdcae4e-db46-484b-a36b-1de08b57b52a")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c4488604-5efa-4b0c-87cc-88999d7790b5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "36c45d3e-3906-4592-93f2-2bf265f78110")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e06136ab-d486-4fe5-baad-5db697590af4")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c295b664-adb0-4118-857c-85060d6c74c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "42d35e49-f771-43ac-afc8-099abf84f07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d6a3948b-471d-412e-abb0-616eb5cc97bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "a2f4891c-c8ef-490a-9dec-52e3362f661c")
+		(at 31 100.01)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW3"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "45b4c352-98c6-42ab-978c-58b331e9d867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36c78621-3bd9-497f-876e-b10a638b0e0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2a90412-b231-46a9-8efb-696d3c154c7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bab610b7-5f83-4734-bd23-ddd853f6acba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/1b810b06-276f-4cfa-bd35-535876d084db")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a5f95479-0f66-40f9-a145-d3ff2266f48d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "457d5bb4-3344-41af-86c2-1e573c9ddaf9")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "4c48f3b9-e3e1-478a-b0e3-40a7866bb7bd")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f56784a6-f0fe-48dd-a007-6eb8f3b695ea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a821d91c-5abd-485c-8413-5a879ed48276")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c0df8942-3814-4781-84a3-6b9bda9d098e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "a7807256-dfea-47eb-a493-c3d072b589a6")
+		(at 97.4 94.2 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW27"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "6365d1a9-d288-4784-8c05-88d339cba21a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa54949-7a9e-4950-99df-084f488b4813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d618b05-f9d0-49ad-bd9a-b34db99f603f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9baa4cd-c128-49f0-a018-ef5acc6fb070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/19814e47-f9b0-46fc-833e-91e7cd2f963e")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f635a8fe-db2c-4365-b5d8-945ebc9b8417")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "afcaa6a1-f35b-465b-9d02-844deccc43eb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b4defd3f-580b-4652-a6a2-0f6be4603b10")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "197cd2cb-e0d3-4bb4-ae54-e139adb6a43f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "28710a33-6b95-4b0d-b611-283db076f7c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "3815add3-78cd-4a46-a141-3f5855131d97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "b5f62e48-cb72-4da9-8dba-80a12912bf4c")
+		(at 222.2 58.51)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW16"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "3904d59e-535a-4d60-be2f-bcc80345205d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3705be0c-139c-4b61-b794-43a35e7fb40a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d546a31-995c-48ef-bb8a-a0102aa0375e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38329ca4-4bb2-4127-aaf1-321e864a0be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/e2d52d8f-df47-4de6-9ba0-efa95028fd1a")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a7355e43-bb74-4699-a0b0-b611b20d0e3f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3fb238da-9574-4013-8955-a7cc0b178f5e")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1275d70f-3af5-422a-9497-7a711f70d4c2")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "29defde0-526b-48e4-9fb0-4fe116fa1ca3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1eae2e15-a345-46e4-8d9e-eb534653df4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "20ba6c96-72a1-4d30-935f-e2c4448e4ad2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "b6fe34bb-c033-4268-8bcd-51e8a85acacf")
+		(at 64.2 77.6 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW14"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "16a43657-9627-4002-bcfb-1ea0f1650c6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97973057-f8e7-4a1e-82bc-2a88659cae52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfea1207-5abf-40da-ad37-699eb1aa5135")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24ebd76b-9cd4-49fa-a59b-893c8054265c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/cdcd6792-b75e-42a3-89b8-6d719aa06765")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "84b7055e-6642-4217-95a8-7bc648bd02fa")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "da4899ef-bf1a-4af7-b79e-9a40843ef724")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "523f6c4a-c13e-4447-a6ef-fb7793fe6239")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0935a55b-4338-46ac-8c4a-4aab9f157776")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "07312756-54d9-4df9-af74-d7baebb23167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c31112d4-4d2a-45bc-89df-270bd09625b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "bd539511-7d87-45a9-b41a-ff6ba5245aaf")
+		(at 64.2 61 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW13"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "155e27d5-be22-461f-857a-666433a27261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee446564-0494-4c2e-ab2b-a88de72a5398")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998ccee7-f729-44ad-b940-6b82ee4fcce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49f92ede-9752-469b-9a70-1072b0e2bf7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/6789cad1-b298-4258-9787-da299e796782")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9522ce54-517b-465a-a5a2-f6a558d1083f")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e63a0fc0-7231-4407-a986-5d43cf400299")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9c989b26-f2b1-4461-9c61-2411d27f860b")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2fcd3093-0ca7-42c9-9b45-0f149bfac65c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "3ed761d8-3d64-49d8-9947-09f6ae47fe9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "713a3168-4584-4fbd-b90f-a45b48d62a90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "bebd1a02-725e-40c9-8e4f-3e6910c32365")
+		(at 255.4 65.15)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW28"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "599553a7-5a5d-4eea-924b-bb17adf42432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9864cac-65e0-4126-8d60-88cedd2fa34f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44af79d2-6581-43bb-9572-9ac76640dcc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d849c41e-b249-4a9a-8a14-87db80faf68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/44f293e9-df8c-418f-804f-719c1f3ca5e9")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1c0093af-73e1-4ccc-984a-f8059859cead")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a78ab661-a1fb-4350-bea9-745710a3def6")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "28efbab1-be15-49c4-8a22-7beff7a301a3")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5cd2e924-5b72-4170-b68e-7a4029d9f019")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "580e469f-8bc1-409c-9904-92d0529ec797")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f5d98749-a248-42a0-b905-fe214ebee912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "bf07d6f3-687a-4a69-8d76-925f6e4174d1")
+		(at 31 66.81)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW1"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "66fafb2b-68ef-4959-b74c-b792044d4dcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8092a9d3-5014-44d9-8481-d0395704c4c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb1d3f12-a073-48cb-b68b-9e1e195a99c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "943f9ae2-6b41-44a3-be3a-619b8573f0a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/48c1e541-0c08-4ea7-bae2-c8390d1ced40")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5e735bc4-1223-498f-b9b8-b20a6cd6edba")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "016ec748-b097-430e-9b55-442c31840565")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0d8e2084-3c17-4b53-955c-33e390130369")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ec831922-e15f-4654-af44-ddc212116d59")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7e861870-670c-431f-93b1-ee507c3d957a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cc0cfc64-852b-4797-bb74-222a44c16ca1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "c269ffea-0431-4c6e-91b8-72ad47c55964")
+		(at 272 100.01 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW36"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "9c38260d-46e1-4033-a1df-6148b301fa09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d47f78e-b91d-4f3c-881e-f1f5c7a8f3f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe386f6c-be93-4553-a1a7-8ca779972223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d320e15e-5802-4bab-9fcb-06a82a841ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/77fdaa13-a631-48fd-9f0b-d92122576efa")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "7b5e73a9-927e-4dc1-a686-2a1b1a1cf381")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "43bd1656-86a5-4240-832f-5d796c35ba64")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e38c3546-c80e-4267-9216-8031f8d21fc1")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "40544426-7d4a-42cf-a40b-42744c140607")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "9e820e6e-0238-47c8-aa8d-1ce88d0aebce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "f99d50b7-0683-4236-96f9-cde34f1f32b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "c27a52da-99c9-431c-ad0a-d0c5c8f845ad")
+		(at 97.4 61 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW25"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "88b790af-5907-467b-bbef-d95529afb2c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b312d0af-571e-4dc5-a21a-56aeb3c1bdc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05105fcb-aedb-4d0d-b227-c723ccd02ad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a8684b8-9778-47a4-913a-66254d9b17ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/1c610bca-b4ce-481c-9b4b-8cb7f1986ece")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d92865f0-16c1-4aa7-a583-f8a936314405")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6d3dc7d2-a129-4e21-9ab0-ebd3a5c754e9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "7df83611-5e10-4613-80d1-d3ed28b7c126")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "41eab413-dc56-4421-b1e3-a23ab75c1b4d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "386c56aa-2ecd-4a18-8724-f747a007a188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "6eae43b2-5af1-438f-9029-a2075da28b3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "c5b81125-b591-40d9-83d3-fd8c69235624")
+		(at 114 80.09 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW32"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "84f4917f-7c57-4b9e-841e-91219c213171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c05f420d-bbe0-4b98-9c16-19b78206ab70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "260963ff-f177-4b30-b59e-309cf33326b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a6abb36-8ce4-4609-a6d1-ed86aa581f9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/d67c6768-176c-4afa-89ed-abe0189270e2")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "31331d2a-b947-4be9-b5e4-935f0b371c5b")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "00fe59e7-11c6-44d6-838b-108dec10b860")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1b12575a-b5a6-4797-b564-da9af3b64182")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "567e63e1-e0af-4b63-a931-a8c9007c6d97")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "3b54700f-a860-460c-9cb1-7a6a8f94d901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "a38122d3-564d-44dc-a141-298f8c9ddb25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "c5e4ef69-a34b-42ce-8c99-755d3af38c81")
+		(at 80.8 91.71 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW21"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "4ed86f28-9ced-4939-9620-49314ddff3a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ce75ae2-fe74-4aa8-bd5f-ae8bdf0aefc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8dbbe25-3258-4e42-9ed4-4fc6fd00bb7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea8cdaa3-20e1-46c4-be5b-26aab232d2e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/913237d7-6b2b-4bdc-8595-b4fe286b8c7f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "78d24bc0-d12f-47a4-bad9-a801b165759b")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ff81e039-f4d7-48a3-bcd5-b11ea19e6fe1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "65ea3a0f-d58e-4528-8773-31030e6bd3f1")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "73f994dd-6415-4d0a-bea4-8af8e217496c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "13082c97-928a-4f72-a166-7f0d916a0714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "706750e6-3b39-41d8-80df-49f9335ee687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "ca541296-eb2c-4baa-901e-bdc7e1054b10")
+		(at 114 96.69 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW33"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "e0ce5d24-dabb-4be5-943f-cf9a8abff53f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "968fd283-74ef-475a-a4dc-de8b1f3ad0c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7c0650b-c4ae-470e-ac14-9ac410ac3009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7cca8b3-29f2-431b-9588-64a2436a6564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/223732b2-0e26-49d8-b3ee-756474fff3db")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b3cec4c7-a155-4ec4-bd08-58fceb529bba")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "03fffeea-f98b-44c4-9936-7fe908c16c7d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "afb3858b-607a-4dcc-a56c-b5ccffce7b28")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "bd9b2d82-2b01-449a-94dd-7400c399073d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "61adb582-7051-42c4-9cbb-577c7ad76658")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "96e403dd-a793-4920-ae98-fe1a4c3d06e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "d7cff030-a341-4f95-9887-b6d179eb0986")
+		(at 238.8 61)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW22"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "72d52b70-0a0a-4a64-b40a-a3c8e29c9b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a704f4b-ff2f-41ec-a29e-e3eec4d02e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2865ac3-00a0-4af3-bae8-842b44ad5e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cf4c5ec-7a75-4c7d-8745-fec5e02ea27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/928cda48-776a-4329-b92a-d17190b398d4")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "50596d57-637b-4071-bbc6-14c3ed46c4f5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f8a415b2-5b8f-407b-81ee-09e55b2df6d1")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1d850976-7378-4f9c-894c-b9c15448e093")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a55e5494-425c-472e-840a-b5560b6e6254")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "618130e7-cda8-4cfe-93b5-923015890b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bc607bf1-b924-4d76-8039-b09358f7b2ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "dc745b10-fdb3-4ebf-aedc-d1469470c1bd")
+		(at 222.2 75.11)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW17"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "b0f9dfa0-5214-4fde-ae48-6407740e51b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa17bd24-602c-455f-a9a0-cf7d5fa69316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0344862c-063c-43c7-b39c-d0befad3e658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17d90391-2919-457a-9f14-5e1105284192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/ffa0139a-8f7e-4383-a20e-ceb78ce7ff0f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2333ab79-4b63-4bf3-a7f8-ea7a72f43c5b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "03287ca9-96ab-40eb-9522-42c7a2aaddc0")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e0048ef3-8368-440c-a9ed-dcbec142a90d")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6696bb64-27d7-4b64-9765-3c434b91710f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "651b2fa9-da36-4993-9f41-131b9ea0e707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d11a58a7-bf4c-41e7-9f2c-d8ee22185ee4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "dd23a754-1e82-46b3-a161-ecd8503d5780")
+		(at 213.9 110.8 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW40"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "f91f2569-2572-4ef9-902f-cc1195e1ba1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f29b516d-f459-4012-82cd-4b7d56987846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24e1f052-121a-4ca0-a3c5-7dfc6e959230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75b79f8f-2bc4-4b5a-a489-c0e78e26c8f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f2439b62-edd9-4f1a-9843-1b79c70d7177")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "15700794-bd13-48e8-8fa1-ebd92190fd78")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6ecd0a0d-15f9-497c-b74a-b95a75c5c4e9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "321208fc-0d08-4aad-8980-4c22ce421a06")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1d5156e5-1508-40ae-8834-574a85ea3cf9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "0db6b29f-c687-4f90-a472-a9d2450800f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "1dc75eea-b844-4829-b5a7-cb3a3781b09f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "e3c3dd0f-f416-409b-a4e9-1b042cb68152")
+		(at 238.8 77.6)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW23"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "81f8d8f8-5e59-44f9-8c65-834836ad2167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c84f70-7d48-4d3d-90de-69dd108717a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29f85ae9-0626-43d3-8ad0-734f0194414b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bdd6fe9-0511-4a4b-8d1f-38c6a8961553")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/52e00b86-eeec-4509-9d1c-bfaec3f8176f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "aafd5865-03e1-42e9-9b5e-17892f09e5f5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "03d676f1-f2ac-49ae-a48c-2a583d8c404f")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "5f94993b-e0ce-46ff-9bb1-cc2764f07c06")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ba790b18-f328-412b-aaa3-41ee3e5af278")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0d0a8a58-ba0d-48ad-8302-b08101a46107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "45d9a022-78af-4305-9a89-787f510c3023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "ef979f53-fb08-42de-8887-6504e29b8f63")
+		(at 80.8 75.11 180)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW20"
+			(at 0 -9 180)
+			(layer "F.SilkS")
+			(uuid "dbb4b88a-12fa-42eb-ac0d-5d6f93df9532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84531f71-5e6a-457b-80c5-1882d226bf0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "494ab7ab-97b9-44b8-b800-f4c81e09578e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf3d818-dfac-4c29-b327-d81f8e9647e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/6c26ead4-e494-4e14-892f-2e320db465fb")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "27bdf0f6-68f8-45f6-b2e6-57704d2ff115")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e888e57e-c425-4665-a519-7ca25b1c7401")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1a7e7024-3304-4fee-beb2-a1138688eb48")
+		)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "348ac77c-a53c-40c7-9db1-985637f98f10")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "0c9ebb3f-de8d-4dae-a2f1-860f618b0e8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "8f0311b3-2572-403a-bfe4-91dd82e3b87d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "efc464a7-71a4-4df8-b266-ac79e9e3312b")
+		(at 189 63.49)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW4"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "2fa74e74-bb6c-4a6a-8274-d2222cd9aad1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f323aeb-6eb9-4257-928e-78b24b6f8fc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83ae4212-fcdc-4218-9ec8-55780ed76871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0d4ff8f-edc6-4a00-b417-38372e60dd70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/ede6a93b-0076-4044-bcab-8e3bec7043be")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "36a9d281-be3f-48db-a2de-8058953974f3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d1f7a514-e54f-48c5-9929-441320edb635")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "97fff44e-6ff0-4e8e-8814-0bd3d56c2ef0")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "7429f978-6382-49dc-b319-178a65702138")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "948e1a0f-9d48-4c47-a1b0-ebf4bdb362ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9578d587-1ad0-4392-9dc6-962124c9571c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2"
+		(layer "F.Cu")
+		(uuid "f9dd083b-ec24-4f0a-8d68-0ae814525438")
+		(at 189 96.69)
+		(descr "Kailh Choc keyswitch CPG1353 V2")
+		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout")
+		(property "Reference" "SW6"
+			(at 0 -9 0)
+			(layer "F.SilkS")
+			(uuid "16f142b0-90ef-4d7c-a4d0-ff5630b97623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d897ae5f-a13b-4fdb-a0f0-d1db277bb1b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94c2b408-c209-449c-931f-50e20a3b66b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb9af100-714a-4043-bf0c-45234c165b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/a202fc12-b071-4e56-9c60-fe633d5482e3")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -5 5.15)
+			(end -4.2 5.15)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d6508cb3-5eba-4111-b5e1-e51ede32f288")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.525 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "196fd46e-bee2-4ef4-8a76-5e7616933a20")
+		)
+		(fp_circle
+			(center 0.05 -5.9)
+			(end 0.65 -5.9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "246ba388-a23a-4812-9482-e5126f526810")
+		)
+		(fp_circle
+			(center 5 -3.8)
+			(end 5.6 -3.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f1e4ec6e-24ca-42f5-9880-07385f6cc42e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "10dfe8ec-3095-41e5-8e93-435a8a824161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "77fe5719-ccba-4ce4-9548-4945aa12bb8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_arc
+		(start 22.2 51.3)
+		(mid 22.492893 50.592893)
+		(end 23.2 50.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd6f3195-05af-4dee-8864-449ad304417d")
+	)
+	(gr_line
+		(start 22.2 123.8)
+		(end 22.2 51.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a1cfff40-3c45-450f-838c-fda894dd1a04")
+	)
+	(gr_arc
+		(start 23.2 124.8)
+		(mid 22.492893 124.507107)
+		(end 22.2 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2204661a-816d-4bee-9b1d-6bab84bd94fe")
+	)
+	(gr_line
+		(start 23.2 124.8)
+		(end 55.1 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ff37643-2a66-462e-a23b-d15f73fa59cf")
+	)
+	(gr_line
+		(start 56.1 110.3)
+		(end 56.1 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e826286a-5179-41bd-8434-fa5e0f8d4e32")
+	)
+	(gr_arc
+		(start 56.1 110.3)
+		(mid 56.392893 109.592893)
+		(end 57.1 109.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "02be7a71-b15e-400f-b831-d0efdd256a15")
+	)
+	(gr_arc
+		(start 56.1 123.8)
+		(mid 55.807107 124.507107)
+		(end 55.1 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ca71ea3-1a95-4f27-9066-577974ab13f0")
+	)
+	(gr_line
+		(start 57.1 109.3)
+		(end 73.2 109.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be246c79-926f-49a2-8ceb-e01adfe27991")
+	)
+	(gr_arc
+		(start 73.2 109.3)
+		(mid 73.907107 109.592893)
+		(end 74.2 110.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0292ba2c-53a6-4663-a76d-5b2e3ef60953")
+	)
+	(gr_line
+		(start 74.2 110.3)
+		(end 74.2 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c5c00998-0635-4830-a9c7-a3f2c8dd44b9")
+	)
+	(gr_arc
+		(start 75.2 124.8)
+		(mid 74.492893 124.507107)
+		(end 74.2 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e315f39-55fe-4165-8a04-da4e259570d1")
+	)
+	(gr_line
+		(start 75.2 124.8)
+		(end 117.332996 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "246bbb6a-f814-4788-9885-c5ffb1ec8219")
+	)
+	(gr_arc
+		(start 117.332996 124.8)
+		(mid 117.590963 124.833846)
+		(end 117.831467 124.933094)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9af848b9-bb51-4160-8c74-a32705f55dd8")
+	)
+	(gr_line
+		(start 117.831467 124.933094)
+		(end 132.734602 133.502396)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "56e1ae18-13d9-4f48-aa0d-ed4ab54da953")
+	)
+	(gr_line
+		(start 121.9 50.3)
+		(end 23.2 50.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "04adb1f0-57db-4496-b898-5a29f25fca68")
+	)
+	(gr_arc
+		(start 121.9 50.3)
+		(mid 122.607107 50.592893)
+		(end 122.9 51.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2808555f-0cde-4f1d-a723-48f0f3c277d8")
+	)
+	(gr_line
+		(start 122.9 51.3)
+		(end 122.9 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a04503d8-5002-48a4-8713-25bdcbac9977")
+	)
+	(gr_arc
+		(start 123.9 105)
+		(mid 123.192893 104.707107)
+		(end 122.9 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3077bb72-59e2-4439-a55c-48efbc3c74ee")
+	)
+	(gr_line
+		(start 123.9 105)
+		(end 143.8 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db5ef421-f420-4b05-8b46-524f059822b3")
+	)
+	(gr_arc
+		(start 134.09911 133.13547)
+		(mid 133.492759 133.601171)
+		(end 132.734602 133.502396)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bd822025-dfb9-4f03-b355-ac7781191b23")
+	)
+	(gr_line
+		(start 134.09911 133.13547)
+		(end 144.666037 114.832043)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44efa8cc-45e2-456c-8613-03af4e9b0818")
+	)
+	(gr_arc
+		(start 143.8 105)
+		(mid 144.507107 105.292893)
+		(end 144.8 106)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "35166d8e-3ed9-4e0c-bdb4-2105d8b2fca9")
+	)
+	(gr_arc
+		(start 144.8 114.332063)
+		(mid 144.765938 114.590875)
+		(end 144.666037 114.832043)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "53f809ef-3a56-4e18-a0e2-b0c8a543d2f4")
+	)
+	(gr_line
+		(start 144.8 114.332063)
+		(end 144.8 106)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e67c760f-117e-4aae-aaae-5800929cc8de")
+	)
+	(gr_arc
+		(start 158.2 106)
+		(mid 158.492893 105.292893)
+		(end 159.2 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c23e7c9c-ffc7-49ac-85d1-ebc3fe1f81ff")
+	)
+	(gr_line
+		(start 158.2 114.336221)
+		(end 158.2 106)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "411901d9-4565-4523-bd9c-5af88cfa7c2a")
+	)
+	(gr_arc
+		(start 158.330106 114.82946)
+		(mid 158.233068 114.591277)
+		(end 158.2 114.336221)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00c0df4a-3318-43e0-b704-aa3afaee23fd")
+	)
+	(gr_line
+		(start 158.330106 114.82946)
+		(end 168.706429 133.12952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "67af71cd-9157-4c15-93ed-69ce1a7da784")
+	)
+	(gr_arc
+		(start 170.070148 133.505842)
+		(mid 169.310303 133.600268)
+		(end 168.706429 133.12952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f187c8f6-3665-4e12-b0ce-fa72bbee59d7")
+	)
+	(gr_line
+		(start 170.070148 133.505842)
+		(end 185.170314 124.930439)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c0963816-810f-4dca-86b4-8653bbb4895d")
+	)
+	(gr_line
+		(start 179.1 105)
+		(end 159.2 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc46d66c-9b8a-48f2-b4c0-d639495aa426")
+	)
+	(gr_line
+		(start 180.1 51.3)
+		(end 180.1 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a7767da1-9ddc-4cbd-8c67-adb848cc5a11")
+	)
+	(gr_arc
+		(start 180.1 51.3)
+		(mid 180.392893 50.592893)
+		(end 181.1 50.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bcbe9b8f-4a27-4eff-aac1-5c072967ccac")
+	)
+	(gr_arc
+		(start 180.1 104)
+		(mid 179.807107 104.707107)
+		(end 179.1 105)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69e1ea85-95dd-4404-a690-ba288cbd7f14")
+	)
+	(gr_arc
+		(start 185.170314 124.930439)
+		(mid 185.408758 124.83316)
+		(end 185.664139 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a4dc712c-6081-4760-9df1-686c853ab87b")
+	)
+	(gr_line
+		(start 227.7 124.8)
+		(end 185.664139 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e4b3137f-c55e-4a22-85e9-ce8f74849085")
+	)
+	(gr_arc
+		(start 228.7 110)
+		(mid 228.992893 109.292893)
+		(end 229.7 109)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "72b74792-422f-407a-a218-e8e7f4695210")
+	)
+	(gr_arc
+		(start 228.7 123.8)
+		(mid 228.407107 124.507107)
+		(end 227.7 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd02489b-8a3d-41a8-bb0d-2ed590aee6c0")
+	)
+	(gr_line
+		(start 228.7 123.8)
+		(end 228.7 110)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3c29ab96-cf39-436a-8084-a127a05e4806")
+	)
+	(gr_line
+		(start 229.7 109)
+		(end 246.1 109)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "afa7e85a-df0e-4207-84aa-9100e4909ff0")
+	)
+	(gr_arc
+		(start 246.1 109)
+		(mid 246.807107 109.292893)
+		(end 247.1 110)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2ab38bfb-f4df-4101-aec8-bb9ee50a2130")
+	)
+	(gr_line
+		(start 247.1 110)
+		(end 247.1 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bd7113e9-a829-4ada-be4f-44861361f023")
+	)
+	(gr_arc
+		(start 248.1 124.8)
+		(mid 247.392893 124.507107)
+		(end 247.1 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c52fea5-3460-4495-8e2a-085deb142174")
+	)
+	(gr_line
+		(start 279.8 50.3)
+		(end 181.1 50.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34cb8203-4ee0-4f41-b392-159b2c3efac6")
+	)
+	(gr_arc
+		(start 279.8 50.3)
+		(mid 280.507107 50.592893)
+		(end 280.8 51.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f61c043c-762d-479b-a1b9-865caa97f766")
+	)
+	(gr_line
+		(start 279.8 124.8)
+		(end 248.1 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f68e6814-1464-450b-b527-562ea3026255")
+	)
+	(gr_arc
+		(start 280.8 123.8)
+		(mid 280.507107 124.507107)
+		(end 279.8 124.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ce43d11-df8a-492c-b6f9-dbf9b2075ff2")
+	)
+	(gr_line
+		(start 280.8 123.8)
+		(end 280.8 51.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c751168-278c-49fc-be37-079d7403a3a7")
+	)
+	(embedded_fonts no)
+)

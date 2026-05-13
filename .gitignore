@@ -1,3 +1,5 @@
 /.direnv/
 *-backups/
 *.FCBak
+
+.history
