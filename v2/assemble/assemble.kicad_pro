@@ -487,7 +487,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "assemble.kicad_pro",
+    "filename": "assemble_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -692,9 +692,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "assemble.kicad_sch",
-        "name": "assemble",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "assemble_v2.kicad_sch",
+        "name": "assemble_v2",
+        "uuid": "3bde1348-5ac1-4130-8742-e5aed0e7aea9"
       }
     ],
     "used_designators": "",
@@ -703,7 +703,7 @@
   "sheets": [
     [
       "3bde1348-5ac1-4130-8742-e5aed0e7aea9",
-      "Root"
+      "assemble_v2"
     ]
   ],
   "text_variables": {},
