@@ -15,16 +15,16 @@ This is a split keyboard having these features:
 | Name                                   | Qty |
 |----------------------------------------+-----|
 | SeeedStudio XIAO nRF52480              |   2 |
-| AAA battery holder                     |   2 |
-| M3 nut                                 |  12 |
-| M3 screw                               |  12 |
+| AAA battery holder                     |   4 |
+| M2 nut                                 |  12 |
+| M2 screw                               |  12 |
 | AE-XCL102D333CR-G                      |   2 |
 | 1N4148W                                |  64 |
 | Choc V2 Socket                         |  42 |
 | Rotally Encoder (ALPS EC12 compatible) |   2 |
 | SS-12D01G3                             |   2 |
 | chip condenser (0.1uF)                 |   4 |
-| chip register (1KΩ)                    |   4 |
+| chip register (2.2KΩ)                  |   4 |
 
 * LICENSE
 MIT
